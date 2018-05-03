@@ -9,4 +9,4 @@ addons:
 before_install:
   - chmod +x mvnw
 before_install:
-  - mysql -e 'CREATE DATABASE ponto_inteligente;'
+  - mysql -e 'CREATE DATABASE ponto_api;'
