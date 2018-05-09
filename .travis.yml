@@ -8,5 +8,3 @@ addons:
       - oracle-java8-installer
 before_install:
   - chmod +x mvnw
-before_install:
-  - mysql -e 'CREATE DATABASE ponto_api;'
